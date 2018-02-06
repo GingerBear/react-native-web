@@ -1,3 +1,1 @@
-Object.defineProperty(exports, '__esModule', { value: true });
-const NativeModules = {};
-exports.default = NativeModules;
+Object.defineProperty(exports,"__esModule",{value:true});var NativeModules={};exports.default=NativeModules;

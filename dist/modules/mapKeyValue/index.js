@@ -1,13 +1,1 @@
-Object.defineProperty(exports, '__esModule', { value: true });
-const hasOwnProperty = Object.prototype.hasOwnProperty;
-const mapKeyValue = function mapKeyValue(obj, fn) {
-  const result = [];
-  for (const key in obj) {
-    if (hasOwnProperty.call(obj, key)) {
-      const r = fn(key, obj[key]);
-      r && result.push(r);
-    }
-  }
-  return result;
-};
-exports.default = mapKeyValue;
+Object.defineProperty(exports,"__esModule",{value:true});var hasOwnProperty=Object.prototype.hasOwnProperty;var mapKeyValue=function mapKeyValue(obj,fn){var result=[];for(var key in obj){if(hasOwnProperty.call(obj,key)){var r=fn(key,obj[key]);r&&result.push(r);}}return result;};exports.default=mapKeyValue;
